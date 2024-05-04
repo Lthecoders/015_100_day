@@ -227,7 +227,6 @@ while animal != "yes":
     elif animal_sound == "octopus":
       print("\033[32m", "\n\nthe sound of octopus is 🐙click-click", "\033[0m")
 
-
   animal = input("\ndo you want to exit? (yes or no) ---> ")
   if animal.lower() not in ["yes", "no"]:
     print("\033[31m", "you can ONLY input yes or no as input ", "\033[0m")
